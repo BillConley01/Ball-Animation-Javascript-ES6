@@ -1,0 +1,10 @@
+body {
+    display: flex; /* Use Flexbox                    */
+    justify-content: center; /* Center Horizontally            */
+  }
+  .ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Turns a square into a circle   */
+    position: absolute;
+  }
