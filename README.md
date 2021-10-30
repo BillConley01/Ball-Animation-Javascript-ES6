@@ -1,6 +1,6 @@
 <h1>Ball Animation With Javascript ES6</h1>
 <p>This code animates bouncing balls within the boundaries of the browsers width and height. This code originate from a code challenge in Week #3 of MIT's MERN Coding Bootcamp. The challenge was to add features. As a result of this challenge the following features were added</p>
-<img src="./Bouncing Balls.jpeg" alt="Bouncing Balls"/>
+<img src="./randomballs.jpeg" alt="Bouncing Balls"/>
 <h2>Features</h2>
 <ul>
 <li>Boundaries Adjust to width and height of the browser window when it loads and when the window is resized</li>
@@ -11,7 +11,7 @@
 </ul>
 <h2>How to Use</h2>
 <ol>
-<li>Copy or clone the Index, JS, and Style files to a folder on your PC</li>
+<li>Fork the project then Copy or clone the Index, JS, and Style files to a folder on your PC</li>
 <li>Open the index file with your browser</li>
 <li>When prompted enter the number of pairs of Balls you want created or select cancel</li>
 <li>Double click your mouse in the browser window for each pair of balls you want created</li>
