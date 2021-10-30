@@ -126,14 +126,14 @@ function factory(total) {
 
     //added to have balls start at the center of the window
     //TODO CREATE SEPARATE FUNCTION
-    startY = Math.floor(Math.random() * height);
-    startX = (width- size)/2;
+    startY = height - size;
+    startX = width- size;
 
     // added fucntion to create random color for each pair of balls
     let color = randomColor();
     //call to the create function with require arguments
     create(startX, startY, color, velx, vely, 0);
-    create(startX, startY, color, -velx, -vely, 0);
+    create(0, startY, color, -velx, -vely, 0);
   }
   totalFactoryOutput += total;
 
