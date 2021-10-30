@@ -146,13 +146,13 @@ var mouse = function (e) {
   let velx  = 10;
   let vely  = 10;
   //adds some randomness to vertical ball movement
-  const Yvel = Math.floor(Math.random()*vely-vely/2);
-  const Xvel = Math.floor(Math.random()*velx-velx/2);
+  vely = getRandomScale(vely);
+  velx = getRandomScale(velx);
   //adds common random color to both balls
   let color = randomColor();
   //added second create to add two symetrical balls
-  create(xmouse, ymouse, color, Xvel, Yvel, 0);
-  create(xmouse, ymouse, color, -Xvel, -Yvel, 0);
+  create(xmouse, ymouse, color, velx, vely, 0);
+  create(xmouse, ymouse, color, -velx, -vely, 0);
   // two more added to array
   totalFactoryOutput += 2; 
   update();
